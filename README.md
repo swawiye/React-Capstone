@@ -58,6 +58,16 @@ To deploy this project run
   npm run deploy
 ```
 
+## Features
+
+- Light/dark mode toggle
+- Necessity of an expense is assessed
+- Graph to show earnings and expenditure every quater
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 ## Appendix
 
 Any additional information goes here
