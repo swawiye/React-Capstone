@@ -34,7 +34,7 @@ function Login() {
         console.log('User created and name saved:', userCredential.user);
 
         // Redirect to login after successful sign-up
-        navigate('/');
+        navigate('/expenseform');
       } catch (err) {
         setError(err.message);
         console.error('Error signing up:', err);
