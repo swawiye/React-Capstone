@@ -11,6 +11,7 @@ function App() {
   return (
     <Router>
       <nav className='navbar'>
+        <NavLink className="logo" to="">MoneyMinds</NavLink>
         <NavLink className="nav-link" to="/">Home</NavLink>
         <NavLink className="nav-link" to="/signup">Get Started</NavLink>
       </nav>

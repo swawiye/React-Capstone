@@ -17,3 +17,10 @@
 .nav-link.active {
   border-bottom: 2px solid white;
 }
+
+.logo {
+  color: rgb(7, 56, 7);
+  font-weight: 900;
+  font-size: larger;
+  margin-right: 10rem;
+}
