@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 import Login from './pages/Login';
 import Signup from './pages/Signup';
 import Home from './pages/Home';
+import ExpenseForm from './components/ExpenseForm';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
         <NavLink className="nav-link" to="/login">Log In</NavLink>
       </nav>
       <Routes>
-        <Route path='/' element={<Home />} />
+        <Route path='/' element={<ExpenseForm />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/login' element={<Login />} />
       </Routes>
