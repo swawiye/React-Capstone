@@ -11,18 +11,18 @@ function Home() {
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 mx-auto max-w-6xl gap-4 mt-5">
                 <div class="border border-gray-400 px-10 py-10 rounded-xl">
-                    <h3 class="font-semibold text-2xl text-red-500">Record your earnings and expenses</h3>
-                    <img></img>
+                    <h3 class="font-semibold text-xl text-green-600 text-center">Record your expenses</h3>
+                    <img src="src\assets\moneyminds placeholder.jpg"/>
                 </div>
             
                 <div class="border border-gray-400 px-10 py-10 rounded-xl">
-                    <h3 class="font-semibold text-2xl text-red-500">View your expenditure</h3>
-                    <img></img>
+                    <h3 class="font-semibold text-xl text-green-600 text-center">View your expenditure</h3>
+                    <img src="src\assets\moneyminds placeholder.jpg"/>
                 </div>
 
                 <div class="border border-gray-400 px-10 py-10 rounded-xl">
-                    <h3 class="font-semibold text-2xl text-red-500">See your balance and graph of expenses</h3>
-                    <img></img>
+                    <h3 class="font-semibold text-xl text-green-600 text-center">See your balance</h3>
+                    <img src="src\assets\moneyminds placeholder.jpg"/>
                 </div>
             </div>
         </div>
