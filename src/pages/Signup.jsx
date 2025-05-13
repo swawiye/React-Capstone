@@ -1,4 +1,3 @@
-// Import necessary libraries and hooks
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import { createUserWithEmailAndPassword, updateProfile } from 'firebase/auth';
