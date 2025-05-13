@@ -1,6 +1,30 @@
 function Home() {
     return (
         <div>
+            <div className="text-center bg-green-600 mt-10 m-4 mb-10 px-5 py-7 rounded-sm">
+                <h3 className="text-white font-bold">Don't let your money have a mind of its own!</h3>
+                <p className="">
+                    <i>MoneyMinds</i> helps you spend your money wisely 
+                    and control your money flow. Join it today to 
+                    control your money with your mind!
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 mx-auto max-w-6xl gap-4 mt-5">
+                <div class="border border-gray-400 px-10 py-10 rounded-xl">
+                    <h3 class="font-semibold text-2xl text-red-500">Record your earnings and expenses</h3>
+                    <img></img>
+                </div>
+            
+                <div class="border border-gray-400 px-10 py-10 rounded-xl">
+                    <h3 class="font-semibold text-2xl text-red-500">View your expenditure</h3>
+                    <img></img>
+                </div>
+
+                <div class="border border-gray-400 px-10 py-10 rounded-xl">
+                    <h3 class="font-semibold text-2xl text-red-500">See your balance and graph of expenses</h3>
+                    <img></img>
+                </div>
+            </div>
         </div>
     )
 }

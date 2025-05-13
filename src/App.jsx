@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, NavLink } from 'react-router-do
 // Pages
 import Login from './pages/Login';
 import Signup from './pages/Signup';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <NavLink className="nav-link" to="/login">Log In</NavLink>
       </nav>
       <Routes>
+        <Route path='/' element={<Home />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='/login' element={<Login />} />
       </Routes>
