@@ -60,9 +60,7 @@ To deploy this project run
 
 ## Features
 
-- Light/dark mode toggle
-- Necessity of an expense is assessed
-- Graph to show earnings and expenditure every quater
+- Graph to show earnings and expenditure 
 
 ## Screenshots
 

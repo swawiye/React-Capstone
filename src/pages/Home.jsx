@@ -21,7 +21,7 @@ function Home() {
                 </div>
 
                 <div class="border border-gray-400 px-10 py-10 rounded-xl">
-                    <h3 class="font-semibold text-xl text-green-600 text-center">See your balance</h3>
+                    <h3 class="font-semibold text-xl text-green-600 text-center">See the statistics</h3>
                     <img src="src\assets\moneyminds placeholder.jpg"/>
                 </div>
             </div>
