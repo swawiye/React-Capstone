@@ -15,7 +15,8 @@ function App() {
         <NavLink className="nav-link" to="/login">Log In</NavLink>
       </nav>
       <Routes>
-        <Route path='/' element={<ExpenseForm />} />
+        <Route path='/' element={<Home />} />
+        {/* <Route path='/' element={<ExpenseForm />} /> */}
         <Route path='/signup' element={<Signup />} />
         <Route path='/login' element={<Login />} />
       </Routes>

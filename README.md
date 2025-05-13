@@ -64,7 +64,9 @@ To deploy this project run
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Expense Form Screenshot](src\assets\Expense Form.png)
+![Expense List Screenshot](src\assets\Expense List.png)
+![Bar Chart Screenshot](src\assets\Bar Chart.png)
 
 ## Appendix
 
