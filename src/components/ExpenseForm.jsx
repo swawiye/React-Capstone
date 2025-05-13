@@ -42,6 +42,53 @@ const ExpenseForm = () => {
                     </button>
                 </div>
             </form>
+
+            <div className="p-6">
+              <h3 className="font-bold text-center mt-6 text-2xl text-gray-800">EXPENSE LIST</h3>
+
+              <div className="mt-4">
+                <p className="text-center text-green-600 text-sm mb-4">Transactions List</p>
+
+                <div className="overflow-x-auto rounded-sm shadow-sm">
+
+                  <table className="min-w-full bg-white border border-gray-200 text-sm text-left text-gray-700">
+                    <thead className="bg-gray-100 text-gray-700 uppercase text-xs">
+                      <tr>
+                        <th className="px-6 py-3 border-b">Category</th>
+                        <th className="px-6 py-3 border-b">Item</th>
+                        <th className="px-6 py-3 border-b">Amount</th>
+                        <th className="px-6 py-3 border-b">Date</th>
+                        <th className="px-6 py-3 border-b">Delete</th>
+                      </tr>
+                    </thead>
+
+                    <tbody>
+                      {/* Example row */}
+                      {/* <tr className="hover:bg-gray-50">
+                        <td className="px-6 py-4 border-b">Food</td>
+                        <td className="px-6 py-4 border-b">Groceries</td>
+                        <td className="px-6 py-4 border-b">$50.00</td>
+                        <td className="px-6 py-4 border-b">2025-05-12</td>
+                        <td className="px-6 py-4 border-b text-red-500 cursor-pointer">Delete</td>
+                      </tr> */}
+                    </tbody>
+
+                    <tfoot className="bg-gray-50">
+                      <tr>
+                        <td className="px-6 py-3 font-semibold text-right" colSpan="5">
+                          {/* Add footer content if needed */}
+                        </td>
+                      </tr>
+                    </tfoot>
+
+                  </table>
+
+                </div>
+                
+              </div>
+
+            </div>
+
         </div>
     )
 }
