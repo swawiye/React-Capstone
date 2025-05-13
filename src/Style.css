@@ -1,0 +1,19 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar {
+  background-color: green;
+  padding: 1rem;
+  text-align: center;
+}
+
+.nav-link {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid white;
+}
