@@ -11,6 +11,8 @@ const ExpenseForm = () => {
     date: ''
   });
 
+  const [date, setDate] = useState("");
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setForm(prev => ({
@@ -134,7 +136,15 @@ const ExpenseForm = () => {
                 <th className="px-6 py-3 border-b">Category</th>
                 <th className="px-6 py-3 border-b">Item</th>
                 <th className="px-6 py-3 border-b">Amount</th>
-                <th className="px-6 py-3 border-b">Date</th>
+                <th className="px-6 py-3 border-b">
+                  Date
+                  <select className='mt-1' value={date} onChange={(e) => {setDate(e.target.value)}}>
+                    <option>-- --</option>
+                    <option>2025</option>
+                    <option>2024</option>
+                    <option>2023</option>
+                  </select>
+                </th>
                 <th className="px-6 py-3 border-b">Delete</th>
               </tr>
             </thead>
